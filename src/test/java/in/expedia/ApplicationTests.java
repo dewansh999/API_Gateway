@@ -1,4 +1,4 @@
-package in.ashokit;
+package in.expedia;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

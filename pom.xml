@@ -8,7 +8,7 @@
 		<version>3.5.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>in.ashokit</groupId>
+	<groupId>in.expedia</groupId>
 	<artifactId>46_API_Gateway</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>46_API_Gateway</name>
