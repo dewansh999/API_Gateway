@@ -4,16 +4,7 @@ import java.util.List; // Keep this
 import java.util.Set; // Keep this
 
 // import org.hibernate.validator.internal.util.logging.LoggerFactory; // Remove this internal import
-import org.slf4j.Logger; // Add this for standard logging
-import org.slf4j.LoggerFactory; // Add this for standard logging
-import org.springframework.cloud.gateway.filter.GatewayFilterChain; // Keep this
-import org.springframework.cloud.gateway.filter.GlobalFilter; // Keep this
-import org.springframework.http.HttpHeaders; // Fix import
-import org.springframework.http.server.reactive.ServerHttpRequest; // Keep this
-import org.springframework.stereotype.Component; // Keep this
-import org.springframework.web.server.ServerWebExchange; // Keep this
 
-import reactor.core.publisher.Mono; // Keep this
 
 @Component
 // @Order(-1) // Optional: Use if you want this filter to run early in the chain
