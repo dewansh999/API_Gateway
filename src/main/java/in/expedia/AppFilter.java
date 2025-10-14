@@ -27,6 +27,8 @@ public class AppFilter implements GlobalFilter {
 
 		keySet.forEach(key -> {
 			// Fix: get() method returns List<String>
+			List<String> values = headers.get(key);
+			System.out.println(key + " :: " + values);
 			
 		});
 
