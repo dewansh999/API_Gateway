@@ -21,7 +21,10 @@ public class AppFilter implements GlobalFilter {
 		HttpHeaders headers = request.getHeaders();
 		Set<String> keySet = headers.keySet();
 
-		
+		keySet.forEach(key -> {
+			// Fix: get() method returns List<String>
+			List<String> values = headers.get(key);
+			System.out.println(key + " :: " + values);
 			
 		});
 
