@@ -17,9 +17,7 @@ public class AppFilter implements GlobalFilter {
 		// Accessing HTTP Request information
 		ServerHttpRequest request = exchange.getRequest();
 
-		// Fix: Use the correct HttpHeaders class
-		HttpHeaders headers = request.getHeaders();
-		Set<String> keySet = headers.keySet();
+		
 
 		keySet.forEach(key -> {
 			// Fix: get() method returns List<String>
